@@ -1,0 +1,49 @@
+# OS generated files
+.DS_Store
+*.swp
+
+# IDE and editor folders/files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.history
+.atom/
+.svn/
+
+# Build and dependency folders
+/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.migrate_working_dir/
+
+# Android specific
+android/app/*.keystore
+
+# Xcode specific
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+ios/Pods/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.dio
+
+# Obfuscation and symbols
+app.*.symbols
+app.*.map.json
+
+# fastlane
+fastlane/report.xml
+
+# Uncomment the following if you want to ignore VSCode config
+# .vscode/

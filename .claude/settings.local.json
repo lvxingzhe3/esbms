@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter --version:*)",
+      "Bash(cat:*)",
+      "Bash(flutter clean:*)",
+      "Bash(flutter build:*)",
+      "Bash(apksigner verify:*)",
+      "Bash(unzip:*)",
+      "Bash(aapt dump badging:*)",
+      "Bash(keytool:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
